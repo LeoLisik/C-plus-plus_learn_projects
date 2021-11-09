@@ -1,0 +1,4 @@
+﻿  Project5.2.cpp
+D:\Visual studio projects\Project5.2\Project5.2\Project5.2.cpp(12,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Visual studio projects\Project5.2\Project5.2\Project5.2.cpp(22,31): warning C4018: <: несоответствие типов со знаком и без знака
+  Project5.2.vcxproj -> D:\Visual studio projects\Project5.2\Debug\Project5.2.exe
