@@ -1,3 +1,4 @@
 ﻿  Project10.cpp
-D:\Git_repos\Project10\Project10\Project10.cpp(17,23): warning C4018: <: несоответствие типов со знаком и без знака
-  Project10.vcxproj -> D:\Git_repos\Project10\Debug\Project10.exe
+C:\Users\trufe\GitRepos\Test2\Project10\Project10\Project10.cpp(17,23): warning C4018: <: несоответствие типов со знаком и без знака
+  LINK : не найден или не выполнена сборка C:\Users\trufe\GitRepos\Test2\Project10\Debug\Project10.exe при последней инкрементной компоновке; выполняется полная компоновка
+  Project10.vcxproj -> C:\Users\trufe\GitRepos\Test2\Project10\Debug\Project10.exe
