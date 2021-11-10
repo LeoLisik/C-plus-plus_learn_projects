@@ -12,7 +12,7 @@ int main() {
     inf.open("f.txt");
     if (inf.is_open()) {
         getline(inf, temp);
-    }
+    } else { cout << "Что-то пошло не так, файл не открылся"; }
     inf.close();
     for (int i = 0; i < temp.length(); i++) {
         if (temp[i] == '9') {
@@ -25,4 +25,5 @@ int main() {
     ofstream inf1("f.txt");
     inf1 << temp;
     inf1.close();
+    cout << "Изменение файла завершено успешно";
 }
