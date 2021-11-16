@@ -8,16 +8,21 @@
 #define ch3  m.find_last_of(".")-m.find_first_of(".")
 using namespace std;
 
+int random(int min, int max)
+{
+	static bool flag;
+	if (!flag)
+	{
+		srand(time(NULL));
+		flag = true;
+	}
+	return min + rand() % (max - min);
+}
+
 int main() {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	int* c = new int[21];
-	int* str1 = new int[6];
-	int* str2 = new int[6];
-	int* str3 = new int[6];
-	int* str4 = new int[6];
-	int* str5 = new int[6];
-	int* str6 = new int[6];
 	int** matrica = new int* [6];
 	string m;
 	int Vvod = 0;
@@ -40,8 +45,8 @@ int main() {
 		}
 	} else { 
 		for (int i = 0; i <= 20; i++) {
-			c[i] = rand() % 9;
-			if (rand() % 2 > 0) {
+			c[i] = random(-10, 10);
+			if (random(0, 1) > 0) {
 				c[i] *= -1;
 			}
 		}

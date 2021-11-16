@@ -1,2 +1,4 @@
 ﻿  Project7.cpp
-  Project7.vcxproj -> D:\Visual studio projects\Project7\Debug\Project7.exe
+D:\Git_repos\Project7\Project7\Project7.cpp(12,36): warning C4305: инициализация: усечение из "double" в "float"
+D:\Git_repos\Project7\Project7\Project7.cpp(12,36): warning C4228: Нестандартное расширение: квалификаторы после запятой в списке операторов объявления пропускаются.
+  Project7.vcxproj -> D:\Git_repos\Project7\Debug\Project7.exe

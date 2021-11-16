@@ -1,4 +1,5 @@
 ﻿  Project6.cpp
-C:\Users\trufe\GitRepos\Project6\Project6\Project6.cpp(30,14): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\trufe\GitRepos\Project6\Project6\Project6.cpp(39,15): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-  Project6.vcxproj -> C:\Users\trufe\GitRepos\Project6\Debug\Project6.exe
+D:\Git_repos\Project6\Project6\Project6.cpp(16,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Git_repos\Project6\Project6\Project6.cpp(35,14): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Git_repos\Project6\Project6\Project6.cpp(44,15): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Project6.vcxproj -> D:\Git_repos\Project6\Debug\Project6.exe
