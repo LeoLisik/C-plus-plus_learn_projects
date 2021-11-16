@@ -1,0 +1,3 @@
+﻿  Project11.1.2.cpp
+D:\Git_repos\Project11.1.2\Project11.1.2\Project11.1.2.cpp(19,17): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Project11.1.2.vcxproj -> D:\Git_repos\Project11.1.2\Debug\Project11.1.2.exe

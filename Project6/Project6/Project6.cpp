@@ -74,4 +74,9 @@ int main() {
 		}
 		cout << endl;
 	}
+	delete[]c;
+	for (int i = 0; i < 6; i++) {
+		delete matrica[i];
+	}
+	delete[]matrica;
 }
