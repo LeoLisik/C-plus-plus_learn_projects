@@ -1,0 +1,45 @@
+#include <iostream>
+#include <fstream>
+#include <algorithm>
+#include <list>
+#include <Windows.h>
+#include <string>
+
+using namespace std;
+int main() {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    list<string>lst; //Создаем список строк, можно массивами но так точно оптимальнее
+    string filestring;
+    fstream my_file_in;
+    my_file_in.open("f.txt", ios::in);
+    if (!my_file_in) {
+        cout << "No such file\n";
+    }
+    else {
+        cout << "*****f.txt*****";
+        while (getline(my_file_in, filestring)) {
+            lst.push_front(filestring);
+        }
+        cout << endl;
+    }
+    my_file_in.close();
+
+    fstream my_file;
+    my_file.open("g.txt", ios::out);
+    if (!my_file) {
+        cout << "File not created!\n";
+    }
+    else {
+        cout << "File created successfully!\n";
+        cout << "*****g.txt*****";
+        for (auto a : lst) //Это range based цикл чтобы не использовать древние итераторы
+        {
+            my_file << a << "\n";
+        }
+        cout << endl;
+        my_file.close();
+    }
+
+    return 0;
+}
