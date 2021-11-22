@@ -1,3 +1,4 @@
 ﻿  Project11.1.1.cpp
-C:\Users\trufe\GitRepos\Project11.1.1\Project11.1.1\Project11.1.1.cpp(16,16): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
-C:\Users\trufe\GitRepos\Project11.1.1\Project11.1.1\Project11.1.1.cpp(57,20): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+C:\Users\trufe\GitRepos\Project11.1.1\Project11.1.1\Project11.1.1.cpp(21,17): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\trufe\GitRepos\Project11.1.1\Project11.1.1\Project11.1.1.cpp(28,17): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Project11.1.1.vcxproj -> C:\Users\trufe\GitRepos\Project11.1.1\Debug\Project11.1.1.exe
