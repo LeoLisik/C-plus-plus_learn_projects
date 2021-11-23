@@ -56,7 +56,6 @@ int main() {
 	}
 	int now_int = 0;
 
-
 	for (int l = 0; l < 6; l++) {
 		for (int i = 0; i < 6; i++) {
 			matrica[l][i] = 0;
@@ -70,6 +69,7 @@ int main() {
 	}
 	for (int l = 0; l < 6; l++) {
 		for (int i = 0; i < 6; i++) {
+			cout.width(7);
 			cout << matrica[l][i] << " ";
 		}
 		cout << endl;

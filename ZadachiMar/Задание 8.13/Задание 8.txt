@@ -1,0 +1,47 @@
+#include <iostream>
+#include <set>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+    system("chcp 1251");
+    char yn = 'y';
+    string targetStr;
+    set<char> setChar; //Множество элементов типа char
+    do
+    {
+        cout << "Привет введи текст а я проверю повторяются символы или инет" << endl;
+        cin >> targetStr;
+        bool contains = false;
+
+        for (auto a : targetStr) //Ипользуется вместо итераторов С++11
+        {
+            if (setChar.find(a)!=setChar.end()) //Есть ли элемент в множестве? если не конец то есть
+            {
+                contains = true;
+                cout << "Элемент содержится в множестве ! \n";
+            }
+        }
+
+        if (!contains)
+        {
+            for (auto a : targetStr)
+            {
+                setChar.insert(a);
+            }
+        }
+
+        cout << "Текущее множество символов:\n";
+        for (auto a : setChar)
+        {
+            cout << a;
+        }
+        cout << endl;
+        cout << "Продолжить у/n (Если не n то продолжится !)   :";
+        cin >> yn;
+    } while (yn == 'y');
+    return 0;
+}
