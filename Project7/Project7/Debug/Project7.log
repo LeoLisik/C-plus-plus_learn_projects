@@ -1,4 +1,4 @@
 ﻿  Project7.cpp
-D:\Git_repos\Project7\Project7\Project7.cpp(12,36): warning C4305: инициализация: усечение из "double" в "float"
-D:\Git_repos\Project7\Project7\Project7.cpp(12,36): warning C4228: Нестандартное расширение: квалификаторы после запятой в списке операторов объявления пропускаются.
+D:\Git_repos\Project7\Project7\Project7.cpp(12,17): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Git_repos\Project7\Project7\Project7.cpp(21,24): warning C4305: инициализация: усечение из "double" в "float"
   Project7.vcxproj -> D:\Git_repos\Project7\Debug\Project7.exe
