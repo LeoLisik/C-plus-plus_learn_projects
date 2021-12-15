@@ -1,6 +1,3 @@
 ﻿  Project13.cpp
-C:\Users\trufe\GitRepos\Project13\Project13\Project13.cpp(12,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\trufe\GitRepos\Project13\Project13\Project13.cpp(19,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\trufe\GitRepos\Project13\Project13\Project13.cpp(24,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\trufe\GitRepos\Project13\Project13\Project13.cpp(31,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-  Project13.vcxproj -> C:\Users\trufe\GitRepos\Project13\Debug\Project13.exe
+C:\Users\Leyukeli\source\repos\C-plus-plus_learn_projects\Project13\Project13\Project13.cpp(35,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Project13.vcxproj -> C:\Users\Leyukeli\source\repos\C-plus-plus_learn_projects\Project13\Debug\Project13.exe
