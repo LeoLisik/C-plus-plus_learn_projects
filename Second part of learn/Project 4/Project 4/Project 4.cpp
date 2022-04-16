@@ -72,7 +72,6 @@ public:
 
 int main()
 {
-	cout << "\nI'm alive\n";
 	Point A(15, 3);
 	Point B(29, 6);
 	Point C(3, 2);
