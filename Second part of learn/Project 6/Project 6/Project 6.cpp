@@ -35,7 +35,7 @@ int& point::givey(void) { return y; }
 void point::show()
 {
     gotoxy(x, y);
-    cout << "";
+    cout << "*";
 }
 void point::hide()
 {
@@ -144,6 +144,4 @@ int main()
     C.show();
     E.show();
     C.move(B);
-    E.hide();
-    C.hide();
 }
